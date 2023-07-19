@@ -3,5 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("HELLO INI.PARSER!")
+
+
+	parser := NewIniParser()
+
+	
+	fmt.Println(parser.IniSections["Colors"][0])
+
+	
 }
